@@ -1,0 +1,13 @@
+com\mobiletrain\utils\DatabaseUtils.class
+com\mobiletrain\web\AddContactServlet.class
+com\mobiletrain\web\UpdateBrokerServlet.class
+com\mobiletrain\dao\ContactDAO.class
+com\mobiletrain\web\UpdateServlet.class
+com\mobiletrain\web\DeleteContactServlet.class
+com\mobiletrain\domain\Contact.class
+com\mobiletrain\service\ContactService.class
+com\mobiletrain\web\QueryContactServlet.class
+com\mobiletrain\service\impl\ContactServiceImpl.class
+com\mobiletrain\web\EncodingFilter.class
+com\mobiletrain\dao\impl\ContactDAOImpl.class
+com\mobiletrain\web\QueryContactPageServlet.class
