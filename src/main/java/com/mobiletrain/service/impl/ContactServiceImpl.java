@@ -10,6 +10,9 @@ import java.util.List;
 public class ContactServiceImpl implements ContactService {
     private ContactDAO dao = new ContactDAOImpl();
 
+    public static void init(){
+
+    }
     @Override
     public List<Contact> queryAll() {
         return dao.queryAll();

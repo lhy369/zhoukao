@@ -10,7 +10,9 @@ import java.util.List;
 
 public class ContactDAOImpl implements ContactDAO {
     private JdbcTemplate jdbcTemplate = DatabaseUtils.getJdbcTemplate();
+    public static void init(){
 
+    }
     @Override
     public List<Contact> queryAll() {
         List<Contact> result = null;
